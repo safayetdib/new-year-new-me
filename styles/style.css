@@ -107,6 +107,47 @@ main {
 }
 
 /* book trial session section styles */
+.trial-session-section {
+	margin-top: 130px;
+}
+.trial-session-section .section-title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.trial-session-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.trial-session-form {
+	width: 500px;
+}
+.trial-form-container,
+.trial-form-container > label {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.trial-form-container input {
+	margin: 10px 0 24px 0;
+	padding: 16px;
+	font-size: 18px;
+	width: 500px;
+	background-color: lightgray;
+	border: none;
+	border-radius: 5px;
+}
+
+.trial-form-container .btn {
+	background-color: #f15b22;
+	color: #fff;
+	width: 160px;
+}
+.trial-form-container .btn:hover {
+	background: #c54b1b;
+}
 
 /* inspiration section styles */
 .inspiration {
@@ -125,9 +166,28 @@ main {
 }
 .inspiration .btn {
 	color: #f15b22;
+	margin-top: 32px;
 }
 .inspiration .btn:hover {
 	background: #e6e6e6;
+}
+/* session results style */
+.result-card {
+	border-radius: 5px;
+	padding: 16px;
+	margin-bottom: 32px;
+	width: 400px;
+	background-color: #f3f3f3;
+}
+.result-icon {
+	font-size: 42px;
+	margin-bottom: 16px;
+	color: gray;
+}
+.result-description span {
+	font-size: 38px;
+	margin-right: 8px;
+	color: #f15b22;
 }
 
 /* footer styles */
