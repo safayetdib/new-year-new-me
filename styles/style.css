@@ -4,13 +4,21 @@
 	font-family: 'Work Sans', sans-serif;
 }
 
-.btn {
+.btn-primary,
+.btn-secondary {
 	font-weight: 600;
 	font-size: 20px;
 	padding: 16px 32px;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+}
+.btn-primary {
+	background: #f15b22;
+	color: #fff;
+}
+.btn-secondary {
+	color: #f15b22;
 }
 
 /* header section */
@@ -109,20 +117,24 @@ main {
 /* book trial session section styles */
 .trial-session-section {
 	margin-top: 130px;
+	height: 800px;
 }
 .trial-session-section .section-title {
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 }
 
 .trial-session-container {
 	width: 100%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-between;
 }
 .trial-session-form {
 	width: 500px;
+	background-color: #f3f3f3;
+	padding: 16px 32px;
+	border-radius: 5px;
 }
 .trial-form-container,
 .trial-form-container > label {
@@ -134,26 +146,45 @@ main {
 	margin: 10px 0 24px 0;
 	padding: 16px;
 	font-size: 18px;
-	width: 500px;
+	width: 470px;
 	background-color: lightgray;
 	border: none;
 	border-radius: 5px;
 }
 
-.trial-form-container .btn {
-	background-color: #f15b22;
-	color: #fff;
+.trial-form-container .btn-primary {
 	width: 160px;
+	background-color: #f15b22;
 }
-.trial-form-container .btn:hover {
-	background: #c54b1b;
+
+/* session results style */
+.result-card {
+	border-radius: 5px;
+	padding: 22px;
+	margin-bottom: 32px;
+	width: 480px;
+	background-color: #f3f3f3;
+}
+.result-icon {
+	font-size: 42px;
+	margin-bottom: 16px;
+	color: gray;
+}
+.result-title {
+	font-size: 28px;
+}
+.result-description span {
+	font-size: 38px;
+	margin-right: 8px;
+	color: #f15b22;
 }
 
 /* inspiration section styles */
 .inspiration {
 	margin-top: 130px;
-	background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
-		url(../images/watch.png);
+	/* background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+		url(../images/watch.png); */
+	background: url(../images/gradient3.png), url(../images/watch.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: left;
@@ -163,31 +194,6 @@ main {
 .inspiration .section-title {
 	color: #fff;
 	width: 460px;
-}
-.inspiration .btn {
-	color: #f15b22;
-	margin-top: 32px;
-}
-.inspiration .btn:hover {
-	background: #e6e6e6;
-}
-/* session results style */
-.result-card {
-	border-radius: 5px;
-	padding: 16px;
-	margin-bottom: 32px;
-	width: 400px;
-	background-color: #f3f3f3;
-}
-.result-icon {
-	font-size: 42px;
-	margin-bottom: 16px;
-	color: gray;
-}
-.result-description span {
-	font-size: 38px;
-	margin-right: 8px;
-	color: #f15b22;
 }
 
 /* footer styles */
@@ -212,8 +218,9 @@ footer .description {
 .phone-info {
 	margin: 16px 0 32px 0;
 }
-.contact-icons img {
+.contact-icons a {
 	margin-right: 18px;
+	text-decoration: none;
 }
 
 .subscription {
@@ -240,16 +247,6 @@ footer .description {
 	border-radius: 5px;
 }
 
-.subscription-form input[type='submit'] {
-	color: #f15b22;
+.subscription-form .btn-secondary {
 	width: 160px;
-	font-weight: 600;
-	font-size: 20px;
-	padding: 16px 32px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
-.subscription-form input[type='submit']:hover {
-	background: #e6e6e6;
 }

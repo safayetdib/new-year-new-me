@@ -25,7 +25,7 @@
 					and keep working towards your goals. The only limit to what you can
 					achieve is the strength of your belief.
 				</p>
-				<button class="btn">Contact Us</button>
+				<button class="btn-primary">Contact Us</button>
 			</div>
 		</header>
 
@@ -41,30 +41,22 @@
 						making it over 2000 years old. Richard McClinton.
 					</p>
 					<ul class="shortcomings">
+						<li><i class="fa-solid fa-check"></i> Lack of technical skills</li>
 						<li>
-							<i class="fa-solid fa-check"></i> Contrary to popular belief, is
-							not simply.
+							<i class="fa-solid fa-check"></i> Lack of attention to detail
 						</li>
 						<li>
-							<i class="fa-solid fa-check"></i> Contrary to popular belief, is
-							not simply.
+							<i class="fa-solid fa-check"></i> Difficulty collaborating with
+							others
 						</li>
 						<li>
-							<i class="fa-solid fa-check"></i> Contrary to popular belief, is
-							not simply.
+							<i class="fa-solid fa-check"></i> Limited problem-solving
+							abilities
 						</li>
 						<li>
-							<i class="fa-solid fa-check"></i> Contrary to popular belief, is
-							not simply.
+							<i class="fa-solid fa-check"></i> Difficulty meeting deadlines
 						</li>
-						<li>
-							<i class="fa-solid fa-check"></i> Contrary to popular belief, is
-							not simply.
-						</li>
-						<li>
-							<i class="fa-solid fa-check"></i> Contrary to popular belief, is
-							not simply.
-						</li>
+						<li><i class="fa-solid fa-check"></i> Poor work quality</li>
 					</ul>
 				</div>
 			</section>
@@ -74,22 +66,22 @@
 				<h2 class="section-title">My Plans</h2>
 				<div class="plans">
 					<div class="plan">
-						<img src="images/icons/web.png" alt="" />
+						<img src="images/icons/web.png" alt="web development" />
 						<h3 class="plan-title">Web Development</h3>
 						<p class="plan-description">I want to start</p>
 					</div>
 					<div class="plan">
-						<img src="images/icons/js.png" alt="" />
+						<img src="images/icons/js.png" alt="javascript" />
 						<h3 class="plan-title">Javascript</h3>
 						<p class="plan-description">I want to learn</p>
 					</div>
 					<div class="plan">
-						<img src="images/icons/smoke.png" alt="" />
+						<img src="images/icons/smoke.png" alt="smoking" />
 						<h3 class="plan-title">Smoking Habit</h3>
 						<p class="plan-description">I want to end</p>
 					</div>
 					<div class="plan">
-						<img src="images/icons/ecom.png" alt="" />
+						<img src="images/icons/ecom.png" alt="ecommerce" />
 						<h3 class="plan-title">Ecommerce</h3>
 						<p class="plan-description">I want to develop</p>
 					</div>
@@ -100,44 +92,6 @@
 			<section class="trial-session-section">
 				<h2 class="section-title">Want to change your life for better?</h2>
 				<div class="trial-session-container">
-					<div class="trial-session-form">
-						<p class="description">
-							Schedule a trial session! Fill out the form, choose a convenient
-							date, and join a free group session.
-						</p>
-						<!-- form starts -->
-						<form class="trial-form-container">
-							<label for="name"
-								>Name
-								<input
-									type="text"
-									name="name"
-									id="name"
-									placeholder="Full Name" />
-							</label>
-							<label for="phone">
-								Phone No
-								<input
-									type="text"
-									name="phone"
-									id="phone"
-									placeholder="Phone Number" />
-							</label>
-							<label for="email">
-								Email
-								<input
-									type="email"
-									name="email"
-									id="email"
-									placeholder="Email" />
-							</label>
-							<label for="date">
-								Choose Date <input type="date" name="date" id="date" />
-							</label>
-
-							<input class="btn" type="submit" value="Submit" />
-						</form>
-					</div>
 					<!-- session results -->
 					<div class="results-container">
 						<div class="result-card">
@@ -166,13 +120,53 @@
 							</p>
 						</div>
 					</div>
+					<!-- form starts -->
+					<div class="trial-session-form">
+						<p class="description">
+							Schedule a trial session! Fill out the form, choose a convenient
+							date, and join a free group session.
+						</p>
+						<form class="trial-form-container">
+							<label for="name"
+								>Name
+								<input
+									type="text"
+									name="name"
+									id="name"
+									required
+									placeholder="Full Name" />
+							</label>
+							<label for="phone">
+								Phone No
+								<input
+									type="text"
+									name="phone"
+									id="phone"
+									required
+									placeholder="Phone Number" />
+							</label>
+							<label for="email">
+								Email
+								<input
+									type="email"
+									name="email"
+									id="email"
+									required
+									placeholder="Email" />
+							</label>
+							<label for="date">
+								Choose Date <input type="date" name="date" id="date" required />
+							</label>
+							<input class="btn-primary" type="submit" value="Submit" />
+						</form>
+					</div>
 				</div>
 			</section>
 
 			<!-- inspire yourself section -->
 			<section class="inspiration">
 				<h2 class="section-title">Always keep a positive mindset</h2>
-				<button class="btn">Call Now</button>
+				<button class="btn-secondary">Call Now</button>
 			</section>
 		</main>
 
@@ -188,9 +182,15 @@
 				<p class="email-info">Email: info@gmail.com</p>
 				<p class="phone-info">Phone: 012-345-678</p>
 				<div class="contact-icons">
-					<img src="images/icons/fb.png" alt="" />
-					<img src="images/icons/twitter.png" alt="" />
-					<img src="images/icons/youtube.png" alt="" />
+					<a href="#">
+						<img src="images/icons/fb.png" alt="facebook" />
+					</a>
+					<a href="#">
+						<img src="images/icons/twitter.png" alt="twitter" />
+					</a>
+					<a href="#">
+						<img src="images/icons/youtube.png" alt="youtube" />
+					</a>
 				</div>
 			</div>
 			<div class="subscription">
@@ -202,7 +202,7 @@
 						id="email"
 						placeholder="Enter Your Email"
 						required />
-					<input type="submit" value="Subscribe" />
+					<input class="btn-secondary" type="submit" value="Subscribe" />
 				</form>
 			</div>
 		</footer>
