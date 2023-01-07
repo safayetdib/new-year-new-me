@@ -17,15 +17,11 @@
 	background: #f15b22;
 	color: #fff;
 }
-.btn-primary:hover {
-	background-color: #ff3a3a;
-}
+
 .btn-secondary {
 	color: #f15b22;
 }
-.btn-secondary:hover {
-	background-color: #fac3c3;
-}
+
 /* header section */
 .banner {
 	background-color: gray;
@@ -191,9 +187,6 @@ main {
 .trial-form-container .btn-primary {
 	width: 160px;
 	background-color: #f15b22;
-}
-.trial-form-container .btn-primary:hover {
-	background-color: #ff3a3a;
 }
 
 /* inspiration section styles */
