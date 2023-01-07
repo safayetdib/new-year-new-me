@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.btn {
+	font-weight: 600;
+	font-size: 20px;
+	padding: 16px 32px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* header section */
+.banner {
+	background-color: gray;
+	background-image: url(../images/banner/banner1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.banner-contents {
+	width: 500px;
+	margin-right: 200px;
+	text-align: right;
+}
+.banner-title {
+	font-weight: 700;
+	font-size: 65px;
+	margin-bottom: 24px;
+	color: #151414;
+}
+.description {
+	margin-bottom: 32px;
+	line-height: 26px;
+	color: #444343;
+}
+.banner-contents .btn {
+	background: #f15b22;
+	color: #fff;
+}
+.banner-contents .btn:hover {
+	background: #c54b1b;
+}
+
+/* main section */
+main {
+	padding: 130px 200px;
+}
+.section-title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	color: #151414;
+	margin-bottom: 24px;
+}
+
+/* past shortcomings section styles */
+.past-shortcomings {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
+}
+.shortcomings-contents {
+	margin-right: 100px;
+}
+.shortcomings-contents .description {
+	margin-bottom: 16px;
+}
+.shortcomings li {
+	list-style: none;
+	color: #444343;
+	margin-bottom: 8px;
+}
+.shortcomings li i {
+	margin-right: 8px;
+}
+
+/* my plans section styles */
+.my-plans {
+	margin-top: 130px;
+	text-align: center;
+}
+.plans {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.plan-title {
+	font-weight: 700;
+	font-size: 30px;
+	margin: 24px 0 16px 0;
+	color: #151414;
+}
+.plan-description {
+	font-weight: 500;
+	font-size: 25px;
+	color: #737272;
+}
+
+/* book trial session section styles */
+
+/* inspiration section styles */
+.inspiration {
+	margin-top: 130px;
+	background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+		url(../images/watch.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+	border-radius: 8px;
+	padding: 60px 64px;
+}
+.inspiration .section-title {
+	color: #fff;
+	width: 460px;
+}
+.inspiration .btn {
+	color: #f15b22;
+}
+.inspiration .btn:hover {
+	background: #e6e6e6;
+}
+
+/* footer styles */
+footer {
+	background-color: #151414;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 130px 200px;
+}
+footer .section-title {
+	color: #f8f8f8;
+	margin-bottom: 16px;
+}
+footer .description {
+	color: #fff;
+	margin-bottom: 24px;
+}
+.contact {
+	width: 480px;
+}
+.phone-info {
+	margin: 16px 0 32px 0;
+}
+.contact-icons img {
+	margin-right: 18px;
+}
+
+.subscription {
+	display: flex;
+	flex-direction: column;
+}
+.subscription-title {
+	font-weight: 600;
+	font-size: 25px;
+}
+.subscription-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.subscription-form input[type='email'] {
+	margin: 32px 0 16px 0;
+	padding: 16px;
+	font-size: 18px;
+	width: 325px;
+	background-color: #151414;
+	color: #f3f3f3;
+	border: 1px solid #f3f3f3;
+	border-radius: 5px;
+}
+
+.subscription-form input[type='submit'] {
+	color: #f15b22;
+	width: 160px;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 16px 32px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.subscription-form input[type='submit']:hover {
+	background: #e6e6e6;
+}
